@@ -1,0 +1,6 @@
+# run: conda env create --file environment.yml
+name: web_scraper
+dependencies:
+- python>=3.9
+- pip
+- pandas # pandas=1.3  # pin version for conda
